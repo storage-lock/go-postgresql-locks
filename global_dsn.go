@@ -31,7 +31,7 @@ func NewLockByDSNWithOptions(ctx context.Context, dsn string, options *storage_l
 
 func GetLockFactoryByDSN(ctx context.Context, dsn string) (*storage_lock_factory.StorageLockFactory[*sql.DB], error) {
 	return globalUriLockFactory.GetOrInit(ctx, dsn, func(ctx context.Context) (*storage_lock_factory.StorageLockFactory[*sql.DB], error) {
-		connectionManager := postgresql_storage.NewPostgresqlConnectionGetterFromDSN(dsn)
+		connectionManager := postgresql_storage.NewPostgresqlConnectionGetterFromDsn(dsn)
 		options := postgresql_storage.NewPostgresqlStorageOptions().SetConnectionManager(connectionManager)
 		storage, err := postgresql_storage.NewPostgresqlStorage(ctx, options)
 		if err != nil {
