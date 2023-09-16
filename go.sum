@@ -26,6 +26,8 @@ github.com/storage-lock/go-postgresql-storage v0.0.2-0.20230903171946-e0250a0826
 github.com/storage-lock/go-postgresql-storage v0.0.2-0.20230903171946-e0250a082682/go.mod h1:GTjyay/fZhhY33wXYEwU9qyfg3SF+L4HyFATdQVhHmU=
 github.com/storage-lock/go-postgresql-storage v0.0.2-0.20230903181827-8a3a0d5b3954 h1:65f+L2kxDSu19I+WLgjhbOIFCY32tIGEorbDuDYXnts=
 github.com/storage-lock/go-postgresql-storage v0.0.2-0.20230903181827-8a3a0d5b3954/go.mod h1:GTjyay/fZhhY33wXYEwU9qyfg3SF+L4HyFATdQVhHmU=
+github.com/storage-lock/go-postgresql-storage v0.0.2 h1:nqUdEgJMwcfU9mphN3pgV/YMKnFzDcHM8KF57qZDNDU=
+github.com/storage-lock/go-postgresql-storage v0.0.2/go.mod h1:N3KJbRqz959nsewASIymwEarMcZI0SxL0DBrqlClULI=
 github.com/storage-lock/go-sql-based-storage v0.0.0-20230903155403-1c8c724d3383 h1:fw1cz2FM9h6Y7XmfEP8xgA8AmxpGFZVXcBi0iKa+O8Y=
 github.com/storage-lock/go-sql-based-storage v0.0.0-20230903155403-1c8c724d3383/go.mod h1:4ixNpjEQ9Aj4E9GExfopf3vw14oqXRSuFSduq7QRgF4=
 github.com/storage-lock/go-sql-based-storage v0.0.0-20230903181730-3e91a672a521 h1:xZQTwQh9F7zKMLPIsHn7mZFSPqpj1OkrGrBVTLKV2c0=
