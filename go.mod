@@ -4,8 +4,8 @@ go 1.23
 
 require (
 	github.com/DATA-DOG/go-sqlmock v1.5.2
-	github.com/storage-lock/go-postgresql-storage v0.0.2
-	github.com/storage-lock/go-storage-lock v0.0.4
+	github.com/storage-lock/go-postgresql-storage v0.0.3
+	github.com/storage-lock/go-storage-lock v0.0.6
 	github.com/storage-lock/go-storage-lock-factory v0.0.2
 	github.com/stretchr/testify v1.11.1
 )
@@ -19,18 +19,10 @@ require (
 	github.com/google/uuid v1.6.0 // indirect
 	github.com/lib/pq v1.10.9 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
-	github.com/storage-lock/go-events v0.0.3 // indirect
-	github.com/storage-lock/go-sql-based-storage v0.0.0-20230903181730-3e91a672a521 // indirect
-	github.com/storage-lock/go-storage v0.0.2 // indirect
-	github.com/storage-lock/go-storage-events v0.0.5 // indirect
+	github.com/storage-lock/go-events v0.0.4 // indirect
+	github.com/storage-lock/go-sql-based-storage v0.0.2 // indirect
+	github.com/storage-lock/go-storage v0.0.3 // indirect
+	github.com/storage-lock/go-storage-events v0.0.6 // indirect
 	github.com/storage-lock/go-utils v0.0.2 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
-
-replace github.com/storage-lock/go-storage => ../go-storage
-
-replace github.com/storage-lock/go-storage-lock => ../go-storage-lock
-
-replace github.com/storage-lock/go-postgresql-storage => ../go-postgresql-storage
-
-replace github.com/storage-lock/go-sql-based-storage => ../go-sql-based-storage
